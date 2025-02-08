@@ -35,6 +35,7 @@ The dataset was cleaned by:
 - Mapping one categorical column into several numerical columns ready for the machine learning models
 - Created new features such as family_size, is_alone, is_child, is_senior, cabin_deck and title
 - Prior to each machine learning model features were scaled and SMOTE oversampling was used to balance the outcome variable.
+- To improve the performance of models sequential forward floating feature selection was used as well as hyperparameter tuning.
 
 # 2. Statistical Tests
 
